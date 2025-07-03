@@ -47,6 +47,9 @@ export default function Summary({ userAnswers }) {
               <h3>{index + 1}</h3>
               <p className="question">{QUESTIONS[index].text}</p>
               <p className={cssClass}>{answer}</p>
+              {answer !== QUESTIONS[index].answers[0] && (
+                <p className="right-answer">{QUESTIONS[index].answers[0]}</p>
+              )}
             </li>
           );
         })}
