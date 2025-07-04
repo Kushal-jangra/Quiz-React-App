@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useEffect, useState } from "react";
 
 export default function QuestionTimer({ timer, onTimeout, mode, isPaused }) {
@@ -33,7 +32,6 @@ export default function QuestionTimer({ timer, onTimeout, mode, isPaused }) {
     />
   );
 }
-=======
 import { useEffect, useState } from "react";
 
 export default function QuestionTimer({ timer, onTimeout, mode }) {
@@ -61,4 +59,3 @@ export default function QuestionTimer({ timer, onTimeout, mode }) {
     />
   );
 }
->>>>>>> bd178c16b8ee8fe575dc2a25fb26be934d7cb1e8

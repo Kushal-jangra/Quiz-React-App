@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useRef } from "react";
 
 export default function Answers({
@@ -46,7 +45,6 @@ export default function Answers({
     </ul>
   );
 }
-=======
 import { useRef } from "react";
 
 export default function Answers({
@@ -94,4 +92,3 @@ export default function Answers({
     </ul>
   );
 }
->>>>>>> bd178c16b8ee8fe575dc2a25fb26be934d7cb1e8

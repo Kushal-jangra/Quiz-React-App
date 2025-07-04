@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useCallback, useRef, useState } from "react";
 import QUESTIONS from "../questions.js";
 import Question from "./Question.jsx";
@@ -75,7 +74,6 @@ export default function Quiz() {
     </div>
   );
 }
-=======
 import { useCallback, useRef, useState } from "react";
 import QUESTIONS from "../questions.js";
 import Question from "./Question.jsx";
@@ -114,4 +112,3 @@ export default function Quiz() {
     </div>
   );
 }
->>>>>>> bd178c16b8ee8fe575dc2a25fb26be934d7cb1e8

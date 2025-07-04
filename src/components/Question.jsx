@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from "react";
 import Answers from "./Answers";
 import QuestionTimer from "./Question-timer";
@@ -63,7 +62,6 @@ export default function Question({
     </div>
   );
 }
-=======
 import { useState } from "react";
 import Answers from "./Answers";
 import QuestionTimer from "./Question-timer";
@@ -122,4 +120,3 @@ export default function Question({ index, onTimeout, onSelectAnswer }) {
     </div>
   );
 }
->>>>>>> bd178c16b8ee8fe575dc2a25fb26be934d7cb1e8
