@@ -1,7 +1,7 @@
 import quizCompletedImg from "../assets/quiz-complete.png";
 import QUESTIONS from "../questions";
 
-export default function Summary({ userAnswers }) {
+export default function Summary({ userAnswers, onClose }) {
   const skippedQuestion = userAnswers.filter((answer) => answer === null);
   const corrected = userAnswers.filter(
     (answer, index) => answer === QUESTIONS[index].answers[0]
@@ -16,6 +16,9 @@ export default function Summary({ userAnswers }) {
 
   return (
     <div id="summary">
+      <button onClick={onClose} className="btn-shared">
+        Close Summary
+      </button>
       <img src={quizCompletedImg} alt="Quiz End" />
       <h2>Quiz Completed</h2>
       <div id="summary-stats">
@@ -46,6 +49,7 @@ export default function Summary({ userAnswers }) {
             <li key={index}>
               <h3>{index + 1}</h3>
               <p className="question">{QUESTIONS[index].text}</p>
+
               <p className={cssClass}>{answer}</p>
               {answer !== QUESTIONS[index].answers[0] && (
                 <p className="right-answer">{QUESTIONS[index].answers[0]}</p>
