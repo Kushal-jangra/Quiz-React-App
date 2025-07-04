@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import quizCompletedImg from "../assets/quiz-complete.png";
 import QUESTIONS from "../questions";
 
@@ -62,7 +62,7 @@ export default function Summary({ userAnswers, onClose }) {
     </div>
   );
 }
-=======
+
 import quizCompletedImg from "../assets/quiz-complete.png";
 import QUESTIONS from "../questions";
 
@@ -122,4 +122,3 @@ export default function Summary({ userAnswers }) {
     </div>
   );
 }
->>>>>>> bd178c16b8ee8fe575dc2a25fb26be934d7cb1e8
