@@ -13,7 +13,7 @@ export default function Question({
     selectedAnswers: "",
     isCorrect: null,
   });
-  let timer = 10000;
+  let timer = 30000;
   if (answer.selectedAnswers) {
     timer = 1000;
   }
@@ -52,7 +52,9 @@ export default function Question({
         mode={answerState}
         isPaused={onPause}
       />
-      <h2>{QUESTIONS[index].text}</h2>
+      <h2>
+        {QUESTIONS[index].id}. {QUESTIONS[index].text}
+      </h2>
       <Answers
         onSelect={handleSelectAnswer}
         answerState={answerState}

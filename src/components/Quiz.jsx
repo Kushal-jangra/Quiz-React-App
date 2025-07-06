@@ -46,6 +46,9 @@ export default function Quiz() {
           >
             Previous
           </button>
+          <h2 style={{ color: "#c1b2dd" }}>
+            Total questions - {QUESTIONS.length}
+          </h2>
 
           <button
             onClick={() => setShowSummary(true)}
