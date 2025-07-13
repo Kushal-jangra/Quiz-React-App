@@ -1,4 +1,4 @@
-export const questions = [
+const questions = [
   { id: 1, text: "What carries oxygenated blood from the heart to the kidney?", answers: ["Arteries", "Veins", "Capillaries", "Nephrons"] },
   { id: 2, text: "What is the functional unit of the kidney?", answers: ["Nephron", "Alveoli", "Glomerulus", "Bowman’s capsule"] },
   { id: 3, text: "What is the percentage of water in urine?", answers: ["95%", "90%", "98%", "80%"] },
@@ -80,3 +80,4 @@ export const questions = [
   { id: 79, text: "Atmospheric pressure is measured in:", answers: ["Pascal", "Celsius", "Dobson", "Lux"] },
   { id: 80, text: "Ocean currents are:", answers: ["Done in detail previously", "Done briefly", "Not discussed", "Ignored"] }
 ];
+export default questions;
